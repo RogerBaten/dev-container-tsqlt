@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+    <Sdk Name="Microsoft.Build.Sql" Version="0.1.3-preview" />
+    <PropertyGroup>
+        <Name>tSQLt_UnitTests</Name>
+        <ProjectGuid>{B68B7897-A5E8-490E-826B-683521F6FF03}</ProjectGuid>
+        <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+        <ModelCollation>1033, CI</ModelCollation>
+    </PropertyGroup>
+</Project>

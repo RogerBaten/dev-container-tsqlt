@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+    <Sdk Name="Microsoft.Build.Sql" Version="0.1.3-preview" />
+    <PropertyGroup>
+        <Name>tSQLt_Framework</Name>
+        <ProjectGuid>{E18C7B6C-2694-4D29-A725-4361D56646A2}</ProjectGuid>
+        <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+        <ModelCollation>1033, CI</ModelCollation>
+    </PropertyGroup>
+    <ItemGroup>
+        <PreDeploy Include="Scripts\Script.PreDeployment1.sql" />
+    </ItemGroup>
+</Project>
